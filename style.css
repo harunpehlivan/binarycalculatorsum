@@ -1,0 +1,85 @@
+body {
+  font-family: arial;
+  background: url('https://res.cloudinary.com/tercuman-b-l-m-merkez/image/upload/v1638301858/responsivecomingsoon_ed5wod.png') no-repeat center center fixed;
+  overflow: hidden;
+  color:#FFF;
+}
+
+#demo {
+  position: absolute;
+  top: 10px;
+  z-index: 5;
+  background: black;
+  color: #fff;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+.calc {
+  position: absolute;
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  left: calc(50% - 150px);
+  top: calc(50% - 150px);
+  text-align:center;
+}
+
+.calc .sum {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: calc(100% - 20px);
+  height: 30px;
+  color: #FFF;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.calc .sum:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.plus {
+  left: calc(50% - 15px);
+  top: 0px;
+  height: 30px;
+  width: 30px;
+  transition: all 0.5s;
+  position: relative;
+  transform: rotate(-45deg);
+}
+
+.plus div {
+  position: relative;
+  width: 30px;
+  height: 8px;
+  background-color: #FFF;
+}
+
+.plus div:first-child {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.plus div:last-child {
+  transform: rotate(-45deg);
+  top: 2px;
+}
+
+.calc input[type=text] {
+  padding: 10px;
+  font-family: helvetica;
+  text-align: center;
+  border: none;
+  width: calc(100% - 20px);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 20px;
+}
+
+h1
+{
+  color:#FFF;
+  text-align:center;
+}
